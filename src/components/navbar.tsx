@@ -113,11 +113,11 @@ function ProfileMenu() {
 const accountItems = [
   {
     title: "Login",
-    href: "/astro-launch-ui/login"
+    href: ""
   },
   {
     title: "Sign Up",
-    href: "/astro-launch-ui/signup"
+    href: ""
   }
 ];
 
@@ -180,17 +180,17 @@ function AccountListMenu() {
 // nav list menu
 const navListMenuItems = [
   {
+    title: "Home",
+    href: "/astro-launch-ui/"
+  },
+  {
     title: "About Us",
     href: "/astro-launch-ui/about"
   },
   {
-    title: "Landing Page",
-    href: "/astro-launch-ui/landing"
-  },
-  {
-    title: "404",
-    href: "/astro-launch-ui/404"
-  },
+    title: "Recent Projects",
+    href: "/astro-launch-ui/projects",
+  }
 ];
  
 function NavListMenu() {
@@ -263,21 +263,7 @@ function NavList() {
       <NavListMenu />
       <AccountListMenu />
 
-      {navListItems.map(({ label, icon }, key) => (
-        <Typography
-          key={label}
-          as="a"
-          href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-launch-ui/"
-          variant="small"
-          color="blue-gray"
-          className="font-normal"
-        >
-          <MenuItem className="flex items-center gap-2 lg:rounded-full">
-            {React.createElement(icon, { className: "h-[18px] w-[18px]" })}{" "}
-            {label}
-          </MenuItem>
-        </Typography>
-      ))}
+     
     </ul>
   );
 }
@@ -323,32 +309,23 @@ export default function ComplexNavbar() {
           href="/"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          AstroLaunch UI
+ <div className="flex flex-wrap items-center justify-center gap-8">
+         
+            <img
+              key='1'
+              src='logos/logoAcodes.png'
+              alt="logo"
+              className="w-20"
+            />
+
+        </div>
         </Typography>
         <div className="hidden lg:flex ml-auto">
           <NavList />
         </div>
-        <IconButton
-          size="sm"
-          color="blue-gray"
-          variant="text"
-          onClick={toggleIsNavOpen}
-          className="ml-auto mr-2 lg:hidden"
-        >
-          <Bars2Icon className="h-6 w-6" />
-        </IconButton>
-        <a href="https://discord.gg/WCvQWMwT" target="_blank">
-          <Button size="sm" color="dark" variant="text">
-            <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
-          </Button>
-        </a>
-        <a href="https://github.com/creativetimofficial/astro-launch-ui" target="_blank">
-          <Button size="sm" color="dark" variant="text">
-            <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
-          </Button>
-        </a>
+    
         <a href="/astro-launch-ui/#examplePages">
-          <Button color="dark">Get started</Button>
+          <Button color="dark">Let's talks and create</Button>
         </a>
       </div>
       <Collapse open={isNavOpen} className="overflow-scroll">

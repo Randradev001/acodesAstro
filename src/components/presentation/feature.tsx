@@ -29,17 +29,17 @@ const features = [
     icon: (
       <img className="w-32 mx-auto mb-4" src="icon1.png" />
     ),
-    title: "For Designers",
+    title: "For Small Business Owners",
     description:
-      "This template comes packed with designer files based on Figma.",
+      "Get simple, custom tools that replace spreadsheets, paper forms, and manual work — without needing a full IT department.",
   },
   {
     icon: (
       <img className="w-32 mx-auto mb-4" src="icon2.png" />
     ),
-    title: "For Developers",
+    title: "For Operations & Admin Teams",
     description:
-      "Save months of work when you use our fully coded components and pages.",
+      "Turn repetitive tasks into automated workflows, with clear dashboards, forms, and reports tailored to your daily work.",
   },
   {
     icon: (
@@ -47,7 +47,7 @@ const features = [
     ),
     title: "For Store Owners",
     description:
-      "Save time and money by helping your team focus on customization and features.",
+      "Build your first internal tools, client portals, or dashboards quickly, and iterate in small, affordable phases as you grow.",
   }
 ];
 
@@ -57,7 +57,7 @@ export function FeatureLanding() {
       <div className="container mx-auto mb-20 text-center">
         <div className="flex justify-center align-center relative z-5">
           <Typography color="dark" className="text-xl mr-2 font-normal">
-            Design & Code by 
+            Design AndradeCodes
           </Typography>
           <svg width="112" height="34" viewBox="0 0 112 34" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="34" height="34" rx="17" fill="white"/>

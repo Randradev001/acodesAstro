@@ -11,7 +11,7 @@ export function PalettePresentation() {
       <div className="h-full w-screen place-items-center bg-white px-8 py-8">
         <div className="container mx-auto grid items-center relative lg:grid-cols-2">
           <div className="hidden lg:flex">
-            <img src="palette.png" alt="iphone" className="max-w-xl rounded-3xl mx-auto" />
+            <img src="section2.png" alt="iphone" className="max-w-xl rounded-3xl mx-auto" />
           </div>
           
           <div className="text-center lg:text-left">
@@ -19,7 +19,7 @@ export function PalettePresentation() {
               color="blue"
               className="flex items-center justify-center lg:justify-start !font-bold text-lg mb-5"
             >
-              Attention to beautiful design
+              Dynamic reports, dashboards, and insights 
             </Typography>
 
             <Typography
@@ -27,10 +27,10 @@ export function PalettePresentation() {
               color="blue-gray"
               className="mb-8 leading-tight"
             >
-              Awesome color palette, variables & elements foundation.
+              Exactly the way you imagine
             </Typography>
             <Typography color="gray" className="lg:pr-20">
-              Customize your colors, sizes, spacing or typography in minutes so they can fit perfectly for your brand. Spend time creating dApps logic and UX, our tools take care of the rest.
+              We build and enhance your business intelligence by transforming raw data into clear, actionable insights that help your company make smarter decisions.
             </Typography>
             
           </div>

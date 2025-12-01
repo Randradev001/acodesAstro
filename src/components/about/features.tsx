@@ -29,9 +29,7 @@ function FeatureCard({ icon, title, children }: FeatureCardProps) {
         >
           {title}
         </Typography>
-        <Typography
-          className="px-8 font-normal text-gray-700"
-        >
+        <Typography className="px-8 font-normal text-gray-700">
           {children}
         </Typography>
       </CardBody>
@@ -41,42 +39,40 @@ function FeatureCard({ icon, title, children }: FeatureCardProps) {
 
 const features = [
   {
-    icon: <EyeIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Check our team",
+    icon: <LinkIcon className="h-6 w-6" strokeWidth={2} />,
+    title: "From Excel to Web Systems",
     description:
-      "For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one",
+      "We turn your spreadsheets and manual processes into robust web applications with databases, secure access, and clear workflows tailored to your business.",
   },
   {
-    icon: (
-      <ChatBubbleOvalLeftEllipsisIcon className="h-6 w-6" strokeWidth={2} />
-    ),
-    title: "Support 24/7",
+    icon: <EyeIcon className="h-6 w-6" strokeWidth={2} />,
+    title: "Dashboards & Business Intelligence",
     description:
-      "As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others.",
+      "Power BI, custom dashboards, and reports that give you visibility over operations, sales, logistics, education, or any area you need to monitor.",
   },
   {
     icon: <BoltIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Unlimited revisions",
+    title: "Automation That Saves Time",
     description:
-      "We get back stabbed by friends. It becomes harder for us to give others a hand. We get our heart broken by people we love.",
+      "Automate repetitive tasks like sending emails, generating PDFs, updating records, or syncing systems so your team can focus on high-value work.",
   },
   {
     icon: <FaceSmileIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Payments functionality",
+    title: "User-Friendly Interfaces",
     description:
-      "Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
+      "Clean and modern screens designed for real users, with simple forms, clear navigation, and flows that make daily work faster and easier.",
   },
   {
-    icon: <LinkIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Improved platform",
+    icon: <ChatBubbleOvalLeftEllipsisIcon className="h-6 w-6" strokeWidth={2} />,
+    title: "Direct Communication & Support",
     description:
-      "Because it's about motivating the doers. Because I'm here to follow my dreams and inspire other people to follow their dreams, too.",
+      "You talk directly with the developer. We listen to your needs, suggest improvements, and stay close during and after the launch of your system.",
   },
   {
     icon: <HeartIcon className="h-6 w-6" strokeWidth={2} />,
-    title: "Prebuilt components",
+    title: "Built for Your Business Reality",
     description:
-      "We're an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
+      "Mining, logistics, education, services, admin, or operations — we adapt the solution to your processes, not the other way around.",
   },
 ];
 
@@ -85,17 +81,18 @@ export function FeatureSectionOne() {
     <section className="py-28 px-4">
       <div className="container mx-auto mb-20 text-center">
         <Typography color="dark" className="mb-2 font-bold text-lg">
-          Social Analytics
+          What we build at AndradeCodes
         </Typography>
         <Typography variant="h2" color="blue-gray" className="mb-4">
-          Turn your idea into a startup
+          From spreadsheets and ideas to real web systems
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 text-blue-gray-800 md:w-10/12 lg:w-7/12 lg:px-8"
         >
-          We&apos;re constantly trying to express ourselves and actualize our
-          dreams. If you have the opportunity to play
+          We help businesses move away from manual Excel files and fragmented
+          tools into custom web applications, dashboards, and automations that
+          centralize data and make day-to-day work more efficient.
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-20 md:grid-cols-2 lg:grid-cols-3">

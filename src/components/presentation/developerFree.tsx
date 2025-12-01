@@ -8,14 +8,14 @@ export function DevPresentation() {
  
   return (
     <ThemeProvider>
-      <div className="h-full w-screen place-items-center bg-white py-20">
+      <div id="DevPresentation" className="h-full w-screen place-items-center bg-white py-20">
         <div className="container mx-auto grid items-center relative lg:grid-cols-2">
           <div className="mb-8">
             <Typography
               color="blue"
               className="flex items-center font-bold text-lg mb-5"
             >
-              Attention to hiqh-quality code
+            From spreadsheets to real software
             </Typography>
 
             <Typography
@@ -23,13 +23,14 @@ export function DevPresentation() {
               color="blue-gray"
               className="mb-4 leading-tight"
             >
-              Develop consistenly using Astro architecture principles
+              Turn your Excel files and templates into powerful digital tools
             </Typography>
             <Typography color="blue-gray" className="lg:pr-32">
-              Using AstroLaunch UI you get everything you need to start creating your fully functional and responsive Ecommerce website in days, not months.
+              Using AndradeCodes, you can transform Excel files, paper forms, and templates into secure, easy-to-use web applications.
+              No more version chaos, copy-paste, or manual reports — just clear screens, filters, and dashboards built around your data.
             </Typography>
           </div>
-          <img src="consistenly.png" alt="components" className="mx-auto hidden md:flex" />
+          <img src="section1.png" alt="components" className="mx-auto hidden md:flex" />
         </div>
       </div>
     </ThemeProvider>

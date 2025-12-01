@@ -24,24 +24,24 @@ function StatsCard({ count, title, desc }) {
 
 const stats = [
   {
-    count: "140+",
-    title: "Coded Elements",
-    desc: "From buttons, to inputs, navbars, alerts, tabels, cards or charts."
+    count: "",
+    title: "Save hours every week thanks to smart automations",
+    desc: "Say goodbye to repetitive tasks. We automate key processes so your team can focus on what truly matters: growth, customers, and strategic decisions. Less time wasted, more productivity gained."
   },
   {
-    count: "10",
-    title: "Example Pages",
-    desc: "Save months of work when you use our pre-made pages."
+    count: "",
+    title: "Scalable solutions that grow with your business",
+    desc: "Our systems are built to evolve with you. Whether you’re adding new users, integrating external tools, or increasing workload, your solution will expand smoothly without disruptions."
   },
   {
-    count: "30+",
-    title: "Design Blocks",
-    desc: "Mix the already made sections and unleash your creativity."
+    count: "",
+    title: "Clean and modern designs, built for real users",
+    desc: "We create intuitive interfaces anyone can understand. Your team will feel comfortable from the first minute—no complicated training required. Clear, modern, and user-friendly."
   },
   {
-    count: "40+",
-    title: "Global Styles",
-    desc: "Colors, typography system, shadows, and blur effects are ready to be used."
+    count: "",
+    title: "Fast implementation, with clear communication and direct support",
+    desc: "We move quickly and transparently. You get direct communication throughout the entire process, ensuring every detail meets your needs. No bureaucracy, no long waiting times."
   },
 ];
 
@@ -56,7 +56,7 @@ export function FigmaPresentation() {
               color="blue"
               className="font-bold text-lg mb-5"
             >
-              Fully Coded Components based on Astro
+             Why Choose Us?
             </Typography>
 
             <Typography
@@ -64,10 +64,10 @@ export function FigmaPresentation() {
               color="blue-gray"
               className="mb-8 leading-tight"
             >
-              Astro LaunchUI Pro
+             Where efficiency meets innovation.
             </Typography>
             <Typography color="blue-gray" className="mb-5 lg:w-[30rem]">
-              All the sections and pages made with these elements will be fully responsive and will look beautiful on all types of screens, including phones, tables, or desktops.
+             We are your technology partner, turning manual processes into simple, fast, and efficient solutions. With expertise in development, data analysis, and automation, we help you optimize your business from day one.
             </Typography>
           </div>
           <div className="lg:flex relative">
@@ -78,11 +78,11 @@ export function FigmaPresentation() {
                     <StatsCard key={key} {...props} />
                   ))}
                 </div>
-                <a href="https://www.creative-tim.com/product/astro-launch-ui-pro" target="_blank">
+               {/* <a href="https://www.creative-tim.com/product/astro-launch-ui-pro" target="_blank">
                   <Button color="dark" className="flex items-center">
                      Astro Pro
                   </Button>
-                </a>
+                </a> */ } 
               </div>
             </div>
             <img src="components.png" alt="iphone" className="lg:w-1/2 rounded-3xl hidden md:flex ml-auto lg:absolute -right-32 -top-24" />
