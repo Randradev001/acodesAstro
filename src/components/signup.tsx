@@ -79,7 +79,7 @@ export function SignUp() {
             >
               Already have an account?{" "}
               <a
-                href="/astro-launch-ui/login"
+                href="/login"
                 className="font-medium text-dark transition-colors hover:text-blue-700"
               >
                 Log in

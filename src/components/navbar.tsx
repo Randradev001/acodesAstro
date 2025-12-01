@@ -181,15 +181,15 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "Home",
-    href: "/astro-launch-ui/"
+    href: "/"
   },
   {
     title: "About Us",
-    href: "/astro-launch-ui/about"
+    href: "/about"
   },
   {
     title: "Recent Projects",
-    href: "/astro-launch-ui/projects",
+    href: "/projects",
   }
 ];
  
@@ -324,7 +324,7 @@ export default function ComplexNavbar() {
           <NavList />
         </div>
     
-        <a href="/astro-launch-ui/#examplePages">
+        <a href="/#examplePages">
           <Button color="dark">Let's talks and create</Button>
         </a>
       </div>

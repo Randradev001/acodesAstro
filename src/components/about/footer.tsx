@@ -3,10 +3,10 @@ import { Typography, Input, Button } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 
 const links = [
-   { name: "Home", link: "/astro-launch-ui/" },
-  { name: "Services", link: "/astro-launch-ui/#DevPresentation" },
-  { name: "Projects", link: "/astro-launch-ui/#examplePages" },
-  { name: "Pricing", link: "/astro-launch-ui/#pricing" },
+   { name: "Home", link: "/" },
+  { name: "Services", link: "/#DevPresentation" },
+  { name: "Projects", link: "/#examplePages" },
+  { name: "Pricing", link: "/#pricing" },
  
 ];
 
